@@ -5,13 +5,11 @@ spring:
 
 ---
 spring:
-  profiles: dev #开发环境
+  profiles: dev 
   application:
-    name: microservercloud-config-hzl-dev
+    name: microservercloud-config-dev
 ---
 spring:
-  profiles: test #测试环境
+  profiles: test 
   application:
-    name: microservicecloud-config-hzl-test
-# 保存格式必须为utf-8
-© 2019 GitHub, Inc.
+    name: microservicecloud-config-test
